@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=advanced calculator Setup Package
+
+
+[Package|advanced calculator Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS\Package
+
+[Package|advanced calculator Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|advanced calculator Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|advanced calculator Setup Package|Files Found]
+
+[Package|advanced calculator Setup Package|Files Released]
+
+[Package|advanced calculator Setup Package|Missing Dependency Information]
+
+[Package|advanced calculator Setup Package|Out-of-Date Dependency Information]
+
+[Package|advanced calculator Setup Package|Files Added]
+
+[Package|advanced calculator Setup Package|Files Removed]
+
+[Package|advanced calculator Setup Package|Files In Project]
+C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS\AVC CAL2Project1.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|advanced calculator Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|advanced calculator Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|advanced calculator Setup Package|Install Locations]
+C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS\AVC CAL2Project1.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|advanced calculator Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS\AVC CAL2Project1.exe=No
+
+[Package|advanced calculator Setup Package|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|advanced calculator Setup Package|IconGroups]
+Group0=Project1
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|advanced calculator Setup Package|Project1]
+Icon1="AVC CAL2Project1.EXE"
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|advanced calculator Setup Package|Package]
+PackageFolder=C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS\Package
+ProjectFolder=C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS
+ServerSideCab=
+File1=C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS\Package\setup.exe
+File2=C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS\Package\Setup.Lst
+File3=C:\Users\Uchechukwu Onwuka\Documents\VB PROJECTS\Package\AVC CAL2Project1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
